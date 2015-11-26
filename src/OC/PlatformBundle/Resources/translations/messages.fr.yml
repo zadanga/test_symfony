@@ -1,0 +1,11 @@
+# src/OC/PlatformBundle/Resources/translations/messages.fr.yml
+
+
+# La syntaxe est : « la chaîne source: la chaîne cible »
+
+Symfony2 is great: J'aime Symfony2
+Hello: Bonjour
+Bye: Au revoir
+"Are you ok ?":  Ca va ?
+Adverts: Annonces
+List of ads: Liste des annonces

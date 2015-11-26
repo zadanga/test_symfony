@@ -1,0 +1,20 @@
+{# src/OC/PlatformBundle/Resources/views/layout.html.twig #}
+
+{% extends "::layout.html.twig" %}
+
+{% block title %}
+  Annonces - {{ parent() }}
+{% endblock %}
+
+{% block body %}
+   Aujourd'hui nous sommes le {{ 'now'|localizeddate('full', 'none') }} et il est {{ 'now'|localizeddate('none', 'short') }}
+  {# On définit un sous-titre commun à toutes les pages du bundle, par exemple #}
+  <h1>{{ 'Adverts'|trans }}</h1>
+
+  <hr>
+
+  {# On définit un nouveau bloc, que les vues du bundle pourront remplir #}
+  {% block ocplatform_body %}
+  {% endblock %}
+
+{% endblock %}
